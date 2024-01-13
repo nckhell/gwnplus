@@ -1,9 +1,12 @@
+"use client";
+
 import { Hamburger } from "@/components/Hamburger/Hamburger";
 import { FC, useCallback, useState } from "react";
 import { MenuItem } from "./atoms/MenuItem";
 import { MobileMenu } from "../MobileMenu";
 import { menu } from "@/config/menu";
 import Image from "next/image";
+import Link from "next/link";
 
 export const Nav: FC = () => {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
@@ -17,8 +20,7 @@ export const Nav: FC = () => {
     <nav className="container-gwen py-6 sm:py-12 xl:py-24">
       <div className="flex items-center justify-between">
         <div>
-          <a
-            aria-current="page"
+          <Link
             href="/"
             className="router-link-active router-link-exact-active relative z-30"
           >
@@ -29,7 +31,7 @@ export const Nav: FC = () => {
               height="500"
               className="max-w-[100px] lg:max-w-[120px]"
             />
-          </a>
+          </Link>
         </div>
         <ul className="hidden flex-col space-y-4 md:mt-0 md:flex md:flex-row md:items-center md:space-x-10 md:space-y-0">
           {menu.map((menuItem) => (

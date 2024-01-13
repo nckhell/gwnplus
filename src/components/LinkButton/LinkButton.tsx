@@ -1,11 +1,12 @@
+import Link from "next/link";
 import { FC } from "react";
 
 interface LinkButtonProps extends React.ComponentProps<"a"> {}
 
 export const LinkButton: FC<LinkButtonProps> = ({ children, href, target }) => {
   return (
-    <a
-      href={href}
+    <Link
+      href={href ?? "/"}
       target={target}
       className="group text-slate-600 inline-block py-3 items-center overflow-hidden border border-[#B16452] px-3.5 text-sm transition-all duration-300 hover:border-orange-400 hover:bg-orange-400 hover:text-white"
     >
@@ -26,6 +27,6 @@ export const LinkButton: FC<LinkButtonProps> = ({ children, href, target }) => {
           />
         </svg>
       </span>
-    </a>
+    </Link>
   );
 };

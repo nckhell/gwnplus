@@ -6,18 +6,18 @@ interface MenuItem {
 export const menu: Array<MenuItem> = [
   {
     label: "Home",
-    url: "#",
+    url: "/",
   },
   {
     label: "Loopbaanbegeleiding",
-    url: "#",
+    url: "/loopbaanbegeleiding",
   },
   {
     label: "Over Gwen",
-    url: "#",
+    url: "over-gwen",
   },
   {
     label: "Contact",
-    url: "#",
+    url: "contact",
   },
 ];

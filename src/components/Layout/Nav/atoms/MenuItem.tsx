@@ -11,8 +11,8 @@ export const MenuItem: FC<MenuItemProps> = ({ label, url, active }) => {
     <li>
       <a
         aria-current={active === true ? "page" : undefined}
-        href="/"
-        className="text-sm font-bold uppercase tracking-widest text-slate-500 hover:text-orange-400 transition-colors"
+        href={url}
+        className="text-sm lg:text-base font-bold uppercase tracking-widest text-slate-500 hover:text-orange-400 transition-colors"
       >
         {label}
       </a>

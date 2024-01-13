@@ -1,16 +1,14 @@
 "use client";
 
 import { Button } from "@/components/Button";
-import { Input } from "@/components/Form/atoms";
-import { Footer } from "@/components/Layout/Footer";
+import { Input, TextArea } from "@/components/Form/atoms";
 import { Header } from "@/components/Layout/Header";
-import { Nav } from "@/components/Layout/Nav";
 import { LinkButton } from "@/components/LinkButton";
+import Link from "next/link";
 
 export default function Home() {
   return (
     <>
-      <Nav />
       <div className="mt-6 lg:mt-12">
         <Header />
       </div>
@@ -43,27 +41,48 @@ export default function Home() {
             Zoek je begeleiding of heb je vragen over loopbaanbegeleiding? Vul
             mijn contactformulier in, en ik beantwoord al je vragen.
           </p>
-          <div className="mt-12 text-left col-span-4 lg:col-span-6 lg:col-start-4 w-[500px] mx-auto">
+          <div className="mt-12 text-left col-span-4 lg:col-span-6 lg:col-start-4 max-w-[500px] mx-auto">
             <form className="flex flex-col" data-gtm-form-interact-id={0}>
-              <Input label="Naam" id="naam" type="text" required />
-              <Input label="E-mailadres" id="email" type="email" required />
-              <Input label="Jouw vraag" id="vraag" type="text" required />
+              <Input
+                label="Naam"
+                id="naam"
+                placeholder="Margriet Hermans"
+                type="text"
+                required
+              />
+              <Input
+                label="E-mailadres"
+                id="email"
+                placeholder="Margriet.Hermans@gmail.com"
+                type="email"
+                required
+              />
+              <TextArea
+                label="Jouw vraag"
+                id="vraag"
+                placeholder="Ik wil weten of loopbaancoaching iets voor mij is.&#10;Kunnen we telefonisch contact opnemen?"
+                required
+              />
               <div className="flex flex-col lg:flex-row justify-between items-start lg:items-center">
                 <p className="text-slate-600">
                   Bekijk de{" "}
-                  <a className="inline-block underline" href="/privacy-policy">
+                  <Link
+                    className="inline-block underline"
+                    href="/privacy-policy"
+                  >
                     privacyverklaring
-                  </a>{" "}
+                  </Link>{" "}
                   .
                 </p>
-                <Button type="submit">Verstuur</Button>
+                <div className="mt-6 lg:mt-0">
+                  <Button type="submit">Verstuur</Button>
+                </div>
               </div>
               <p className="mt-[20px] text-[16px]" />
             </form>
           </div>
         </div>
       </div>
-      <Footer />
     </>
   );
 }
