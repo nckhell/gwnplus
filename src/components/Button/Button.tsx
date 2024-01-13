@@ -1,12 +1,11 @@
 import { FC } from "react";
 
-interface LinkButtonProps extends React.ComponentProps<"a"> {}
+interface ButtonProps extends React.ComponentProps<"button"> {}
 
-export const LinkButton: FC<LinkButtonProps> = ({ children, href, target }) => {
+export const Button: FC<ButtonProps> = ({ type, children }) => {
   return (
-    <a
-      href={href}
-      target={target}
+    <button
+      type={type}
       className="group text-slate-600 inline-block py-3 items-center overflow-hidden border border-[#B16452] px-3.5 text-sm transition-all duration-300 hover:border-orange-400 hover:bg-orange-400 hover:text-white"
     >
       <span className="relative flex items-center">
@@ -26,6 +25,6 @@ export const LinkButton: FC<LinkButtonProps> = ({ children, href, target }) => {
           />
         </svg>
       </span>
-    </a>
+    </button>
   );
 };

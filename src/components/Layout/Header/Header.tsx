@@ -34,8 +34,8 @@ export const Header: FC = () => {
             Klaar om samen de deuren naar nieuwe mogelijkheden te openen?
           </p>
         </div>
-        <div className="mt-4">
-          <LinkButton href="#" label="Meer over Gwen" />
+        <div className="mt-6">
+          <LinkButton href="#">Meer over Gwen</LinkButton>
         </div>
       </div>
     </div>

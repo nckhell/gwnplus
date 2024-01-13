@@ -3,6 +3,7 @@ import { FC, useCallback, useState } from "react";
 import { MenuItem } from "./atoms/MenuItem";
 import { MobileMenu } from "../MobileMenu";
 import { menu } from "@/config/menu";
+import Image from "next/image";
 
 export const Nav: FC = () => {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
@@ -21,7 +22,13 @@ export const Nav: FC = () => {
             href="/"
             className="router-link-active router-link-exact-active relative z-30"
           >
-            GWNPLUS
+            <Image
+              src="/logo.png"
+              alt="Logo Gwen Jansen"
+              width="500"
+              height="500"
+              className="max-w-[100px] lg:max-w-[120px]"
+            />
           </a>
         </div>
         <ul className="hidden flex-col space-y-4 md:mt-0 md:flex md:flex-row md:items-center md:space-x-10 md:space-y-0">
