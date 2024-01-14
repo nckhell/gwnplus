@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import "./globals.css";
 import { Nav } from "@/components/Layout/Nav";
 import { Footer } from "@/components/Layout/Footer";
+import { GoogleAnalytics } from "@next/third-parties/google";
 
 export const metadata: Metadata = {
   title: "GWN+ | Loopbaanbegeleiding",
@@ -21,6 +22,7 @@ export default function RootLayout({
         {children}
         <Footer />
       </body>
+      <GoogleAnalytics gaId="G-K761TPNK4R" />
     </html>
   );
 }
