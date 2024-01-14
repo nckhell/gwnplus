@@ -3,6 +3,7 @@ import "./globals.css";
 import { Nav } from "@/components/Layout/Nav";
 import { Footer } from "@/components/Layout/Footer";
 import { GoogleAnalytics } from "@next/third-parties/google";
+import Script from "next/script";
 
 export const metadata: Metadata = {
   title: "GWN+ | Loopbaanbegeleiding",
@@ -23,6 +24,10 @@ export default function RootLayout({
         <Footer />
       </body>
       <GoogleAnalytics gaId="G-K761TPNK4R" />
+      <Script
+        strategy="beforeInteractive"
+        src="https://cdn-cookieyes.com/client_data/24bb444260d505f1e73255fb/script.js"
+      />
     </html>
   );
 }
