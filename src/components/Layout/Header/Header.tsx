@@ -14,6 +14,7 @@ export const Header: FC = () => {
           width="2948"
           height="3025"
           className="blob-image w-3/5 lg:w-auto max-w-[340px] mx-auto"
+          priority
         />
       </div>
       <div className="lg:w-3/5">
@@ -35,7 +36,9 @@ export const Header: FC = () => {
           </p>
         </div>
         <div className="mt-6">
-          <LinkButton href="#">Meer over Gwen</LinkButton>
+          <LinkButton href="/over-gwen" title="Meer over Gwen">
+            Meer over Gwen
+          </LinkButton>
         </div>
       </div>
     </div>

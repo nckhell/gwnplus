@@ -1,10 +1,8 @@
 "use client";
 
-import { Button } from "@/components/Button";
-import { Input, TextArea } from "@/components/Form/atoms";
+import { ContactForm } from "@/components/Form";
 import { Header } from "@/components/Layout/Header";
 import { LinkButton } from "@/components/LinkButton";
-import Link from "next/link";
 
 export default function Home() {
   return (
@@ -12,7 +10,7 @@ export default function Home() {
       <div className="mt-6 lg:mt-12">
         <Header />
       </div>
-      <div className="bg-orange-100 mt-24 py-24">
+      <div className="bg-orange-100 mt-24 py-16">
         <div className="container-gwen">
           <h1 className="text-3xl font-semibold text-[#B16452] sm:text-4xl lg:text-5xl lg:leading-snug">
             Loopbaanbegeleiding
@@ -28,7 +26,9 @@ export default function Home() {
             </p>
           </div>
           <div className="mt-6">
-            <LinkButton href="#">Meer over loopbaanbegeleiding</LinkButton>
+            <LinkButton href="/loopbaanbegeleiding" title="Loopbaanbegeleiding">
+              Meer over loopbaanbegeleiding
+            </LinkButton>
           </div>
         </div>
       </div>
@@ -42,44 +42,7 @@ export default function Home() {
             mijn contactformulier in, en ik beantwoord al je vragen.
           </p>
           <div className="mt-12 text-left col-span-4 lg:col-span-6 lg:col-start-4 max-w-[500px] mx-auto">
-            <form className="flex flex-col" data-gtm-form-interact-id={0}>
-              <Input
-                label="Naam"
-                id="naam"
-                placeholder="Margriet Hermans"
-                type="text"
-                required
-              />
-              <Input
-                label="E-mailadres"
-                id="email"
-                placeholder="Margriet.Hermans@gmail.com"
-                type="email"
-                required
-              />
-              <TextArea
-                label="Jouw vraag"
-                id="vraag"
-                placeholder="Ik wil weten of loopbaancoaching iets voor mij is.&#10;Kunnen we telefonisch contact opnemen?"
-                required
-              />
-              <div className="flex flex-col lg:flex-row justify-between items-start lg:items-center">
-                <p className="text-slate-600">
-                  Bekijk de{" "}
-                  <Link
-                    className="inline-block underline"
-                    href="/privacy-policy"
-                  >
-                    privacyverklaring
-                  </Link>{" "}
-                  .
-                </p>
-                <div className="mt-6 lg:mt-0">
-                  <Button type="submit">Verstuur</Button>
-                </div>
-              </div>
-              <p className="mt-[20px] text-[16px]" />
-            </form>
+            <ContactForm />
           </div>
         </div>
       </div>

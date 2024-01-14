@@ -1,5 +1,4 @@
 import { LinkButton } from "@/components/LinkButton";
-import Link from "next/link";
 
 export default function NotFound() {
   return (
@@ -8,7 +7,9 @@ export default function NotFound() {
         Pagina niet gevonden
       </h2>
       <div className="mt-6">
-        <LinkButton href="/">Terug naar Home</LinkButton>
+        <LinkButton href="/" title="Terug naar Home">
+          Terug naar Home
+        </LinkButton>
       </div>
     </div>
   );

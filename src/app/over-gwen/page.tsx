@@ -1,7 +1,24 @@
 import { LinkButton } from "@/components/LinkButton";
 import Image from "next/image";
 
+import type { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "GWN+ | Over Gwen",
+  description:
+    "Gwen is Gecertificeerd Loopbaancoach en Technical Recruiter met een passie voor HR en vrijwilligerswerk bij het Rode Kruis.",
+};
+
+const _calculateAge = (birthday: Date) => {
+  var ageDifMs = Date.now() - birthday.getTime();
+  var ageDate = new Date(ageDifMs);
+
+  return Math.abs(ageDate.getUTCFullYear() - 1970);
+};
+
 export default function OverGwen() {
+  const age = _calculateAge(new Date("1997-05-12"));
+
   return (
     <>
       <div className="container-gwen lg:flex lg:justify-between">
@@ -12,6 +29,7 @@ export default function OverGwen() {
             width="2948"
             height="3025"
             className="blob-image w-3/5 lg:w-auto max-w-[340px] mx-auto"
+            priority
           />
         </div>
         <div className="lg:w-3/5">
@@ -25,15 +43,16 @@ export default function OverGwen() {
           </h2>
           <div className="text-xl text-slate-600 mt-8 flex flex-col gap-y-4">
             <p>
-              Hi there! Ik ben Gwen, een 26-jarige enthousiasteling die oprecht
-              voldoening haalt uit het bijdragen aan het succes van anderen. Het
-              liefst geniet ik stilletjes, achter de schermen. Na mijn studie
-              Office Management - Human Resources heeft mijn loopbaan al enkele
-              interessante paden bewandeld, niet altijd de beste keuzes, maar
-              elke omweg bracht waardevolle lessen en dieper zelfinzicht. Nu ik
-              een duidelijk zicht heb op o.a. mijn competenties, in welke
-              werkomgeving ik het beste functioneer en wat mij veel energie
-              geeft, heb ik nu een duidelijke loopbaankoers voor ogen.
+              Hi there! Ik ben Gwen, een {age}-jarige enthousiasteling die
+              oprecht voldoening haalt uit het bijdragen aan het succes van
+              anderen. Het liefst geniet ik stilletjes, achter de schermen. Na
+              mijn studie Office Management - Human Resources heeft mijn
+              loopbaan al enkele interessante paden bewandeld, niet altijd de
+              beste keuzes, maar elke omweg bracht waardevolle lessen en dieper
+              zelfinzicht. Nu ik een duidelijk zicht heb op o.a. mijn
+              competenties, in welke werkomgeving ik het beste functioneer en
+              wat mij veel energie geeft, heb ik nu een duidelijke loopbaankoers
+              voor ogen.
             </p>
             <p>
               Ik ben begonnen aan de Gecertificeerd Loopbaancoach-opleiding bij
@@ -58,7 +77,7 @@ export default function OverGwen() {
           </div>
         </div>
       </div>
-      <div className="bg-orange-100 mt-24 py-24">
+      <div className="bg-orange-100 mt-24 py-16">
         <div className="container-gwen text-xl text-slate-600">
           <div className="lg:w-4/5">
             <h2 className="text-3xl font-semibold text-[#B16452] sm:text-4xl lg:text-5xl lg:leading-snug">
@@ -79,7 +98,7 @@ export default function OverGwen() {
             <p>Waar ik je in help:</p>
             <ul className="flex flex-col gap-y-4 list-disc ml-6 pl-4">
               <li>
-                <strong className="text-orange-500">Zelfinzicht:</strong>We
+                <strong className="text-orange-500">Zelfinzicht:</strong> We
                 onderzoeken samen jouw sterke punten, vaardigheden, interesses
                 en wat je echt belangrijk vindt in een loopbaan.{" "}
               </li>
@@ -132,7 +151,9 @@ export default function OverGwen() {
             samen ontdekken of ik je daarbij kan helpen.
           </p>
           <div className="mt-8">
-            <LinkButton href="/contact">Contacteer me</LinkButton>
+            <LinkButton href="/contact" title="Contacteer me">
+              Contacteer me
+            </LinkButton>
           </div>
         </div>
       </div>

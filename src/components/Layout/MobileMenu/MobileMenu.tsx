@@ -5,9 +5,10 @@ import { menu } from "@/config/menu";
 
 interface MobileMenuProps {
   open: boolean;
+  activePath: string;
 }
 
-export const MobileMenu: FC<MobileMenuProps> = ({ open }) => {
+export const MobileMenu: FC<MobileMenuProps> = ({ open, activePath }) => {
   return (
     <div
       id="navlinks"
@@ -22,6 +23,7 @@ export const MobileMenu: FC<MobileMenuProps> = ({ open }) => {
             key={menuItem.url}
             label={menuItem.label}
             url={menuItem.url}
+            active={activePath == menuItem.url}
           />
         ))}
       </ul>

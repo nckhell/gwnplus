@@ -19,7 +19,7 @@ export const TextArea: FC<TextAreaProps> = ({ label, ...props }) => {
           id={props.id}
           name={props.name}
           placeholder={props.placeholder}
-          className="bg-transparent text-lg text-slate-600 w-full py-[16px] border-b border-slate-900 transition-colors duration-500 ease-in-out focus:border-purple focus:outline-none border-opacity-20 placeholder:text-black placeholder:opacity-60 focus:border-[#B16452]"
+          className="bg-transparent text-lg text-slate-600 w-full py-[16px] border-b border-slate-900 transition-colors duration-500 ease-in-out focus:border-purple focus:outline-none border-opacity-20 placeholder:text-slate-400 focus:border-[#B16452]"
         />
       </div>
     </div>

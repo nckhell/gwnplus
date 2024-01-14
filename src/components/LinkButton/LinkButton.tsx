@@ -3,12 +3,18 @@ import { FC } from "react";
 
 interface LinkButtonProps extends React.ComponentProps<"a"> {}
 
-export const LinkButton: FC<LinkButtonProps> = ({ children, href, target }) => {
+export const LinkButton: FC<LinkButtonProps> = ({
+  children,
+  href,
+  target,
+  title,
+}) => {
   return (
     <Link
       href={href ?? "/"}
       target={target}
       className="group text-slate-600 inline-block py-3 items-center overflow-hidden border border-[#B16452] px-3.5 text-sm transition-all duration-300 hover:border-orange-400 hover:bg-orange-400 hover:text-white"
+      title={title}
     >
       <span className="relative flex items-center">
         {children}

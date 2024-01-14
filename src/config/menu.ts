@@ -14,10 +14,10 @@ export const menu: Array<MenuItem> = [
   },
   {
     label: "Over Gwen",
-    url: "over-gwen",
+    url: "/over-gwen",
   },
   {
     label: "Contact",
-    url: "contact",
+    url: "/contact",
   },
 ];

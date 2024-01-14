@@ -4,7 +4,7 @@ import { Nav } from "@/components/Layout/Nav";
 import { Footer } from "@/components/Layout/Footer";
 
 export const metadata: Metadata = {
-  title: "GWN+ | Loopbaancoaching",
+  title: "GWN+ | Loopbaanbegeleiding",
   description:
     "Gwen Jansen (GWN+) uit Kontich coacht en ondersteunt individuen bij het ontdekken, plannen en ontwikkelen van loopbaanbeslissingen en het maximaliseren van hun professionele potentieel.",
 };

@@ -1,3 +1,5 @@
+import clsx from "clsx";
+import Link from "next/link";
 import { FC } from "react";
 
 interface MenuItemProps {
@@ -9,13 +11,17 @@ interface MenuItemProps {
 export const MenuItem: FC<MenuItemProps> = ({ label, url, active }) => {
   return (
     <li>
-      <a
+      <Link
         aria-current={active === true ? "page" : undefined}
         href={url}
-        className="text-sm lg:text-base font-bold uppercase tracking-widest text-slate-500 hover:text-orange-400 transition-colors"
+        className={clsx(
+          "text-sm lg:text-base font-bold uppercase tracking-widest hover:text-orange-400 transition-colors",
+          active == true ? "underline text-orange-400" : "text-slate-500"
+        )}
+        title={label}
       >
         {label}
-      </a>
+      </Link>
     </li>
   );
 };

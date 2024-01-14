@@ -1,14 +1,17 @@
 "use client";
 
 import { Hamburger } from "@/components/Hamburger/Hamburger";
-import { FC, useCallback, useState } from "react";
+import { FC, useCallback, useEffect, useState } from "react";
 import { MenuItem } from "./atoms/MenuItem";
 import { MobileMenu } from "../MobileMenu";
 import { menu } from "@/config/menu";
 import Image from "next/image";
 import Link from "next/link";
+import { usePathname } from "next/navigation";
 
 export const Nav: FC = () => {
+  const pathname = usePathname();
+
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
 
   const toggleMobileMenu = useCallback(
@@ -16,8 +19,14 @@ export const Nav: FC = () => {
     []
   );
 
+  useEffect(() => {
+    if (isMobileMenuOpen) {
+      setIsMobileMenuOpen(false);
+    }
+  }, [pathname]);
+
   return (
-    <nav className="container-gwen py-6 sm:py-12 xl:py-24">
+    <nav className="container-gwen py-8 sm:py-12 xl:py-24">
       <div className="flex items-center justify-between">
         <div>
           <Link
@@ -30,6 +39,7 @@ export const Nav: FC = () => {
               width="500"
               height="500"
               className="max-w-[100px] lg:max-w-[120px]"
+              priority
             />
           </Link>
         </div>
@@ -39,6 +49,7 @@ export const Nav: FC = () => {
               key={menuItem.url}
               label={menuItem.label}
               url={menuItem.url}
+              active={pathname == menuItem.url}
             />
           ))}
         </ul>
@@ -47,7 +58,7 @@ export const Nav: FC = () => {
         </div>
       </div>
       <div className="md:hidden">
-        <MobileMenu open={isMobileMenuOpen} />
+        <MobileMenu open={isMobileMenuOpen} activePath={pathname ?? ""} />
       </div>
     </nav>
   );
