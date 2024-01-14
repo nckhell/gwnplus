@@ -12,9 +12,9 @@ export default function Home() {
       </div>
       <div className="bg-orange-100 mt-24 py-16">
         <div className="container-gwen">
-          <h1 className="text-3xl font-semibold text-[#B16452] sm:text-4xl lg:text-5xl lg:leading-snug">
+          <h2 className="text-3xl font-semibold text-[#B16452] sm:text-4xl lg:text-5xl lg:leading-snug">
             Loopbaanbegeleiding
-          </h1>
+          </h2>
           <div className="lg:w-4/5">
             <p className="text-xl text-slate-600 mt-8">
               Of je nu nog zoekende bent aan het begin van je loopbaan of je
@@ -26,7 +26,10 @@ export default function Home() {
             </p>
           </div>
           <div className="mt-6">
-            <LinkButton href="/loopbaanbegeleiding" title="Loopbaanbegeleiding">
+            <LinkButton
+              href="/loopbaanbegeleiding"
+              title="Wat is loopbaanbegeleiding?"
+            >
               Meer over loopbaanbegeleiding
             </LinkButton>
           </div>
@@ -34,9 +37,9 @@ export default function Home() {
       </div>
       <div className="my-24">
         <div className="container-gwen text-center">
-          <h1 className="text-3xl font-semibold text-slate-900 sm:text-4xl lg:text-5xl lg:leading-snug">
+          <h2 className="text-3xl font-semibold text-slate-900 sm:text-4xl lg:text-5xl lg:leading-snug">
             Hoe kan ik jou <span className="text-orange-500">helpen?</span>
-          </h1>
+          </h2>
           <p className="text-xl text-slate-600 mt-8 max-w-[580px] mx-auto">
             Zoek je begeleiding of heb je vragen over loopbaanbegeleiding? Vul
             mijn contactformulier in, en ik beantwoord al je vragen.

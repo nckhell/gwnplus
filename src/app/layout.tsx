@@ -8,7 +8,7 @@ import Script from "next/script";
 export const metadata: Metadata = {
   title: "GWN+ | Loopbaanbegeleiding",
   description:
-    "Gwen Jansen (GWN+) uit Kontich coacht en ondersteunt individuen bij het ontdekken, plannen en ontwikkelen van loopbaanbeslissingen en het maximaliseren van hun professionele potentieel.",
+    "Gwen Jansen (GWN+) uit Kontich ondersteunt je bij het ontdekken, plannen en ontwikkelen van loopbaanbeslissingen en het maximaliseren van je professionele potentieel.",
 };
 
 export default function RootLayout({
@@ -17,7 +17,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="en">
+    <html lang="nl">
       <body className="bg-white">
         <Nav />
         {children}

@@ -27,7 +27,7 @@ export const Footer: FC = () => {
                 <Link
                   href={menuItem.url}
                   className="text-slate-100 transition duration-300 hover:text-slate-300"
-                  title={menuItem.label}
+                  title={menuItem.alt}
                 >
                   {menuItem.label}
                 </Link>

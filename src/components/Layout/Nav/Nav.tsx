@@ -50,6 +50,7 @@ export const Nav: FC = () => {
               label={menuItem.label}
               url={menuItem.url}
               active={pathname == menuItem.url}
+              alt={menuItem.alt}
             />
           ))}
         </ul>

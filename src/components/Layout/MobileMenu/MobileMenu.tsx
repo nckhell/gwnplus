@@ -24,6 +24,7 @@ export const MobileMenu: FC<MobileMenuProps> = ({ open, activePath }) => {
             label={menuItem.label}
             url={menuItem.url}
             active={activePath == menuItem.url}
+            alt={menuItem.alt}
           />
         ))}
       </ul>

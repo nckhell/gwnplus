@@ -6,7 +6,7 @@ import { Card } from "@/components/Card";
 import Link from "next/link";
 
 export const metadata: Metadata = {
-  title: "GWN+ | Loopbaanbegeleiding",
+  title: "GWN+ | Wat is loopbaanbegeleiding",
   description:
     "Verken je carrièrepotentieel met loopbaanbegeleiding: krijg inzicht in je talenten, stel doelen, en maak strategische keuzes, of je nu starter bent of een carrièreswitch overweegt.",
 };
