@@ -70,7 +70,7 @@ export const ContactForm: FC = () => {
           <input
             id="name"
             type="text"
-            placeholder="Margriet Hermans"
+            placeholder="Voornaam Achternaam"
             disabled={success === true ? true : false}
             className="disabled:cursor-not-allowed bg-transparent text-lg text-slate-600 w-full py-[16px] border-b border-slate-900 transition-colors duration-500 ease-in-out focus:border-purple focus:outline-none border-opacity-20 focus:border-[#B16452] placeholder:text-slate-400"
             {...register("name", { required: true })}
@@ -94,7 +94,7 @@ export const ContactForm: FC = () => {
           <input
             id="name"
             type="email"
-            placeholder="Margriet.Hermans@gmail.com"
+            placeholder="email@gmail.com"
             disabled={success === true ? true : false}
             className="disabled:cursor-not-allowed bg-transparent text-lg text-slate-600 w-full py-[16px] border-b border-slate-900 transition-colors duration-500 ease-in-out focus:border-purple focus:outline-none border-opacity-20 focus:border-[#B16452] placeholder:text-slate-400"
             {...register("email", { required: true })}
