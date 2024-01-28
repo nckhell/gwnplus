@@ -42,7 +42,6 @@ export const submitContactForm = async ({
       success: true,
     };
   } catch (error) {
-    console.error(error);
     return {
       error: (error as Error).message,
       success: false,

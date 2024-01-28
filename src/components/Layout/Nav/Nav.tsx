@@ -26,7 +26,7 @@ export const Nav: FC = () => {
   }, [pathname]);
 
   return (
-    <nav className="container-gwen py-8 sm:py-12 xl:py-24">
+    <nav className="container-gwen py-8 sm:py-10">
       <div className="flex items-center justify-between">
         <div>
           <Link

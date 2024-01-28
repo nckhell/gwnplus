@@ -24,7 +24,7 @@ export default function OverGwen() {
   return (
     <>
       <div className="container-gwen lg:flex lg:justify-between">
-        <div className="lg:w-3/5">
+        <div className="lg:w-4/5">
           <h1 className="text-3xl font-semibold text-slate-900 lg:text-4xl lg:leading-snug">
             Wat is <span className="text-orange-500">loopbaanbegeleiding</span>?
           </h1>
@@ -90,9 +90,45 @@ export default function OverGwen() {
                 <strong>De kostprijs van de cheques:</strong>
               </p>
               <ul className="flex flex-col gap-y-2 list-disc ml-6 pl-4">
-                <li>Loopbaancheque 1: je betaalt 40 euro (4 uur coaching).</li>
-                <li>Loopbaancheque 2: je betaalt 40 euro (3 uur coaching).</li>
+                <li>Loopbaancheque 1: je betaalt 44 euro (4 uur coaching).</li>
+                <li>Loopbaancheque 2: je betaalt 44 euro (3 uur coaching).</li>
               </ul>
+              <p>
+                Deze loopbaanbegeleiding is in samenwerking met erkend
+                loopbaancenter Delavie.
+              </p>
+              <div className="sm:flex sm:justify-between sm:items-center mt-2">
+                <figure className="w-1/2 text-center">
+                  <Link
+                    href="https://www.delavie.be/"
+                    title="Delavie"
+                    className="inline-block"
+                  >
+                    <Image
+                      src="/delavie.png"
+                      width="144"
+                      height="144"
+                      alt="Delavie"
+                      className="w-[180px]"
+                    />
+                  </Link>
+                </figure>
+                <figure className="w-1/2 text-center">
+                  <Link
+                    href="https://www.delavie.be/"
+                    title="Loopbaancheques"
+                    className="inline-block"
+                  >
+                    <Image
+                      src="/loopbaancheques.png"
+                      width="653"
+                      height="196"
+                      alt="Loopbaancheques"
+                      className="w-[180px]"
+                    />
+                  </Link>
+                </figure>
+              </div>
             </div>
             <LinkButton
               href="https://www-login.vdab.be/login/start?url=https:%2F%2Fwww.vdab.be%2Fprive%2Fapps%2Floopbaancheques%2Fbestellingen%3Fcontext%3Dloopbaancheques"
@@ -108,46 +144,21 @@ export default function OverGwen() {
             <div className="mt-4 flex flex-col gap-y-4 mb-6">
               <p>
                 Wanneer je niet in aanmerking komt voor loopbaancheques, is het
-                evengoed mogelijk om samen aan de slag te gaan met jouw
-                loopbaanvraag. Samen zullen we afspraken maken betreffende het
-                verloop van je traject.
+                ook mogelijk om samen aan de slag te gaan met jouw
+                loopbaanvraag. We maken een afspraak voor een voorafgaand
+                gesprek om jouw specifieke behoeften en doelen te bespreken.
+                Tijdens dat gesprek kunnen we het traject samenstellen, rekening
+                houdend met jouw unieke situatie en gewenste resultaten.
               </p>
               <p>
-                Het uurtarief van 60 euro wordt dan aangerekend. Indien je bij
-                mij terecht komt via doorverwijzing vanuit Delavie, bedraagt het
-                uurtarief 75 euro. Dit conform de richtlijnen vanuit het erkend
-                loopbaancentrum
+                Voor begeleiding zonder loopbaancheques wordt er een uurtarief
+                van €75 per uur gerekend.
               </p>
-              <figure>
-                <Link href="https://www.delavie.be/" title="Delavie">
-                  <Image
-                    src="/delavie.png"
-                    width="144"
-                    height="144"
-                    alt="Delavie"
-                    className="mx-auto w-3/5 mt-2"
-                  />
-                </Link>
-              </figure>
-              {/*<figure>
-              <Link href="https://www.delavie.be/" title="Delavie">
-                  <Image
-                    src="/delavie.png"
-                    width="144"
-                    height="144"
-                    alt="Delavie"
-                  />
-                </Link>
-              </figure>
-              <p>
-                Loopbaancoaching in samenwerking met gecertificeerd
-                loopbaancentrum Delavie
-              </p> */}
             </div>
           </Card>
         </div>
       </div>
-      <div className="py-12 bg-[#B16452]">
+      <div className="py-12 sm:py-16 bg-[#B16452]">
         <div className="container-gwen text-slate-100">
           <div className="lg:w-4/5">
             <h1 className="text-3xl font-semibold lg:text-4xl lg:leading-snug">

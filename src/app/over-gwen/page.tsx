@@ -51,8 +51,8 @@ export default function OverGwen() {
               beste keuzes, maar elke omweg bracht waardevolle lessen en dieper
               zelfinzicht. Nu ik een duidelijk zicht heb op o.a. mijn
               competenties, in welke werkomgeving ik het beste functioneer en
-              wat mij veel energie geeft, heb ik nu een duidelijke loopbaankoers
-              voor ogen.
+              wat mij veel energie geeft, ben ik me veel bewuster van
+              loopbaankeuzes die het beste bij me passen.
             </p>
             <p>
               Ik ben begonnen aan de Gecertificeerd Loopbaancoach-opleiding bij
