@@ -90,8 +90,8 @@ export default function OverGwen() {
                 <strong>De kostprijs van de cheques:</strong>
               </p>
               <ul className="flex flex-col gap-y-2 list-disc ml-6 pl-4">
-                <li>Loopbaancheque 1: je betaalt 44 euro (4 uur coaching).</li>
-                <li>Loopbaancheque 2: je betaalt 44 euro (3 uur coaching).</li>
+                <li>Loopbaancheque 1: je betaalt 45 euro (4 uur coaching).</li>
+                <li>Loopbaancheque 2: je betaalt 45 euro (3 uur coaching).</li>
               </ul>
               <p>
                 Deze loopbaanbegeleiding is in samenwerking met erkend
