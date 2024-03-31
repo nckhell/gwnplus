@@ -16,8 +16,8 @@ export const menu: Array<MenuItem> = [
     url: "/loopbaanbegeleiding",
   },
   {
-    label: "Over Gwen",
-    alt: "Over Gwen",
+    label: "Over GWN+",
+    alt: "Over GWN+",
     url: "/over-gwen",
   },
   {

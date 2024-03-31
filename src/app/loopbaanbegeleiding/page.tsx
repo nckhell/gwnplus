@@ -28,7 +28,7 @@ export default function OverGwen() {
           <h1 className="text-3xl font-semibold text-slate-900 lg:text-4xl lg:leading-snug">
             Wat is <span className="text-orange-500">loopbaanbegeleiding</span>?
           </h1>
-          <div className="text-xl text-slate-600 mt-8 flex flex-col gap-y-4">
+          <div className="text-lg text-slate-600 mt-8 flex flex-col gap-y-4">
             <p>
               Bij loopbaanbegeleiding word je geholpen om beter inzicht te
               krijgen in je sterke punten, interesses en doelen, zodat je
@@ -167,7 +167,7 @@ export default function OverGwen() {
             <h2 className="mt-8 mb-2 text-2xl font-semibold text-amber-900 lg:text-3xl lg:leading-snug">
               GRATIS Kennismakingsgesprek
             </h2>
-            <p className="text-xl">
+            <p className="text-lg">
               Elke loopbaantraject start met een{" "}
               <strong>GRATIS kennismakingsgesprek </strong>van een half uur
               waarin we kennismaken en gaan kijken naar jouw loopbaanvraag. Dit
@@ -178,13 +178,10 @@ export default function OverGwen() {
             <h2 className="mt-8 mb-2 text-2xl font-semibold text-amber-900 lg:text-3xl lg:leading-snug">
               Intake gesprek
             </h2>
-            <p className="text-xl">
-              Na dit gesprek beslis jij of je van start wil gaan met de
-              loopbaanbegeleiding en kan er een volgend{" "}
-              <strong>intakegesprek</strong> worden geboekt, waarin we dieper
-              ingaan op jouw loopbaanvraag.
-            </p>
-            <p className="text-xl mt-4">
+            <p className="text-lg">
+              Tijdens het <strong>intakegesprek</strong> gaan we dieper in op
+              jouw specifieke loopbaanvraag.
+              <br />
               Het is belangrijk dat jij je verhaal eens kwijt kan en dat er echt
               onbevooroordeeld naar jou geluisterd wordt. Zo kan ik een goed
               inzicht krijgen in je situatie: wat loopt moeilijk, waar bots je
@@ -198,7 +195,7 @@ export default function OverGwen() {
             <h2 className="mt-8 mb-2 text-2xl font-semibold text-amber-900 lg:text-3xl lg:leading-snug">
               Verdiepende sessies
             </h2>
-            <p className="text-xl">
+            <p className="text-lg">
               Na het intake gesprek gaan we over naar verdiepende sessies waarin
               we gericht actie ondernemen om jouw persoonlijke loopbaanvraag aan
               te pakken. Ik begeleid je in dit proces met diverse praktische
@@ -208,12 +205,12 @@ export default function OverGwen() {
             <h2 className="mt-8 mb-2 text-2xl font-semibold text-amber-900 lg:text-3xl lg:leading-snug">
               Synthesegesprek
             </h2>
-            <p className="text-xl">
+            <p className="text-lg">
               Uiteindelijk ronden we af met een laatste samenvattende sessie,
               waarin we samen de inzichten die je hebt opgedaan in kaart brengen
               en bespreken welke concrete stappen jij gaat zetten.
             </p>
-            <p className="text-xl mt-4">
+            <p className="text-lg mt-4">
               Deze sessies kunnen online doorgaan <strong>of </strong>bij mijn
               praktijk in Kontich <strong>of </strong>bij jou thuis.
             </p>
@@ -222,68 +219,68 @@ export default function OverGwen() {
       </div>
       <div className="my-24">
         <div className="container-gwen">
-          <div className="lg:w-3/5">
+          <div className="lg:w-4/5">
             <h1 className="text-3xl font-semibold text-slate-900 lg:text-4xl lg:leading-snug">
-              <span className="text-orange-500">Herken je jezelf</span> in
-              &eacute;&eacute;n (of meerdere) van deze stellingen,{" "}
               <span className="text-orange-500">
-                dan ben je aan het juiste adres!
+                Het stuur ligt in jouw handen
               </span>
+              , en ik zit graag naast je om je te begeleiden!
             </h1>
+            <div className="text-lg text-slate-600 mt-8 flex flex-col gap-y-4">
+              <p>
+                Ik begrijp hoe angstaanjagend verandering kan zijn, maar geloof
+                sterk in een persoonlijke aanpak die jouw specifieke behoeften
+                en tempo respecteert. Samen leggen we een stevige basis voor een
+                praktisch actieplan met haalbare stappen om jouw loopbaan vorm
+                te geven op een manier die jou inspireert en motiveert.
+              </p>
+            </div>
             <div className="mt-4">
-              <ul className="flex text-xl text-slate-900 flex-col gap-y-2 list-disc ml-6 pl-4">
+              <ul className="flex text-lg text-slate-900 flex-col gap-y-2 list-disc ml-6 pl-4">
                 <li>
-                  Je wilt graag <strong>ontdekken</strong> welke{" "}
-                  <strong>job</strong> nu &eacute;cht bij je past.
+                  <strong>Omgaan met verandering</strong>: We onderzoeken samen
+                  jouw angsten en twijfels met betrekking tot verandering en
+                  ontwikkelen strategieën om hiermee om te gaan.
                 </li>
                 <li>
-                  De <strong>balans</strong> tussen{" "}
-                  <strong>werk en priv&eacute;</strong> is er niet meer.
+                  <strong>Zelfinzicht</strong>: We verkennen jouw sterke punten,
+                  vaardigheden, interesses en waarden in een loopbaan, en hoe
+                  deze kunnen helpen bij het omarmen van verandering.
                 </li>
                 <li>
-                  Je ervaart <strong>te veel frustraties</strong> op het werk en
-                  je bent je <strong>motivatie</strong>{" "}
-                  <strong>verloren</strong>.
+                  <strong>Doelbepaling</strong>: We stellen duidelijke doelen op
+                  en identificeren wat je wilt bereiken, zelfs als dit betekent
+                  dat je buiten je comfortzone moet stappen.
                 </li>
                 <li>
-                  Je wil graag een <strong>opleiding</strong> volgen, maar weet
-                  niet welke.
+                  <strong>Actieplan</strong>: Op basis van jouw doelen maken we
+                  een praktisch en haalbaar plan met stappen om deze te
+                  bereiken, rekening houdend met jouw angst voor verandering.
                 </li>
                 <li>
-                  Je wil graag een inzicht over je{" "}
-                  <strong>sterktes en zwaktes </strong>
-                  en wilt weten hoe je er het beste mee kan uitpakken.
+                  <strong>Begeleiding</strong>: Ik sta naast je als gids en
+                  supporter tijdens het uitvoeren van het plan. We bespreken
+                  obstakels en passen het plan indien nodig aan, met extra
+                  aandacht voor het omgaan met verandering.
                 </li>
                 <li>
-                  Je bent zoekende naar een <strong>nieuwe uitdaging</strong>{" "}
-                  maar weet niet wat.
+                  <strong>Jobexploratie</strong>: Indien gewenst, verkennen we
+                  samen carrière-opties en kansen, en hoe je deze angst voor
+                  verandering kunt overwinnen.
                 </li>
                 <li>
-                  Je gaat met <strong>tegenzin</strong> naar je werk.
-                </li>
-                <li>
-                  Je ervaart <strong>te hoge werkdruk</strong>,{" "}
-                  <strong>stress</strong> of signalen van{" "}
-                  <strong>burn-out</strong>.
-                </li>
-                <li>
-                  Je wil uitklaren of <strong>ondernemen</strong> iets voor jou
-                  kan zijn.
-                </li>
-                <li>
-                  Je hebt het gevoel dat je op een <strong>kruispunt</strong>{" "}
-                  zit <strong>in je loopbaan</strong>, maar weet niet welke
-                  richting je uit moet.
-                </li>
-                <li>
-                  Je wil graag <strong>doorgroeien</strong> of{" "}
-                  <strong>promoveren</strong>, maar je weet niet goed hoe je dat
-                  best aanpakt.
+                  <strong>Zelfmanagement</strong>: Ik help je bij het
+                  ontwikkelen van vaardigheden zoals tijdsbeheer,
+                  stressmanagement en zelfvertrouwen, die essentieel zijn bij
+                  het omgaan met verandering.
                 </li>
               </ul>
-              <p className="mt-4 text-xl text-slate-900">
-                Ben jij klaar om aan de slag te gaan met jouw loopbaan?
-                Contacteer me dan via de website.
+              <p className="mt-4 text-lg text-slate-900">
+                Kortom, als loopbaancoach ondersteun ik je in elke fase van jouw
+                loopbaanontwikkeling, inclusief het omgaan met verandering en
+                het overwinnen van angst voor verandering, zodat je jouw
+                professionele doelen met meer voldoening en succes kunt
+                bereiken.
               </p>
             </div>
             <div className="mt-4">

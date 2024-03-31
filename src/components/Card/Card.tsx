@@ -7,7 +7,7 @@ interface CardProps {
 
 export const Card: FC<CardProps> = ({ title, children }) => {
   return (
-    <div className="h-full bg-orange-100 p-8 rounded-xl text-xl text-slate-600">
+    <div className="h-full bg-orange-100 p-8 rounded-xl text-slate-600">
       <h2 className="text-xl font-semibold text-slate-900 lg:text-2xl lg:leading-snug">
         {title}
       </h2>

@@ -22,7 +22,6 @@ body {
 }
 
 .container-gwen {
-  /* @apply mx-auto max-w-5xl px-8 sm:px-12 lg:px-8 xl:px-16; */
   @apply container px-8 mx-auto;
 }
 

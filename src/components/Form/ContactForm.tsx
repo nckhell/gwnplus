@@ -58,7 +58,7 @@ export const ContactForm: FC = () => {
       <div className="mb-[32px] lg:mb-[50px]">
         <label
           htmlFor="name"
-          className="text-xl text-[#B16452] font-semibold block h5 mb-2"
+          className="text-lg text-[#B16452] font-semibold block h5 mb-2"
         >
           Naam
           <span className="text-red-500">*</span>
@@ -82,7 +82,7 @@ export const ContactForm: FC = () => {
       <div className="mb-[32px] lg:mb-[50px]">
         <label
           htmlFor="email"
-          className="text-xl text-[#B16452] font-semibold block h5 mb-2"
+          className="text-lg text-[#B16452] font-semibold block h5 mb-2"
         >
           E-mailadres
           <span className="text-red-500">*</span>
@@ -106,7 +106,7 @@ export const ContactForm: FC = () => {
       <div className="mb-[32px] lg:mb-[50px]">
         <label
           htmlFor="phone"
-          className="text-xl text-[#B16452] font-semibold block h5 mb-2"
+          className="text-lg text-[#B16452] font-semibold block h5 mb-2"
         >
           Telefoon
         </label>
@@ -124,7 +124,7 @@ export const ContactForm: FC = () => {
       <div className="mb-[32px] lg:mb-[50px]">
         <label
           htmlFor="body"
-          className="text-xl text-[#B16452] font-semibold block h5 mb-2"
+          className="text-lg text-[#B16452] font-semibold block h5 mb-2"
         >
           Jouw vraag
           <span className="text-red-500">*</span>
