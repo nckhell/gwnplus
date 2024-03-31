@@ -38,9 +38,10 @@ export default function OverGwen() {
           </h2>
           <div className="text-lg text-slate-600 mt-8 flex flex-col gap-y-4">
             <p>
-              Welkom bij GWN+, waar 'gewoon plus' niet alleen een naam is, maar
-              een filosofie. Een filosofie die de grenzen van het 'gewone'
-              doorbreekt en de horizon van jouw loopbaan verbreedt.
+              Welkom bij GWN+, waar &apos;gewoon plus&apos; niet alleen een naam
+              is, maar een filosofie. Een filosofie die de grenzen van het
+              &apos;gewone&apos; doorbreekt en de horizon van jouw loopbaan
+              verbreedt.
             </p>
             <p>
               <strong className="text-orange-500">
@@ -54,10 +55,11 @@ export default function OverGwen() {
               mogelijk is en om te ontdekken waar jij nog meer uit kunt halen.
             </p>
             <p>
-              GWN+ is opgestart in 2023 door mezelf, Gwen. Vragen als "Hoe eng
-              is het om iets te doen waarvan je de uitkomst niet kent?" en "Is
-              dit echt de juiste stap voor mij?" en "Hoe kan ik weten of ik wel
-              goed genoeg zou zijn voor die job?" spookten vaak door mijn hoofd.
+              GWN+ is opgestart in 2023 door mezelf, Gwen. Vragen als &apos;Hoe
+              eng is het om iets te doen waarvan je de uitkomst niet kent?&apos;
+              en &apos;Is dit echt de juiste stap voor mij?&apos; en &apos;Hoe
+              kan ik weten of ik wel goed genoeg zou zijn voor die job?&apos;
+              spookten vaak door mijn hoofd.
             </p>
             <p>
               Het werd me duidelijk dat ik niet de enige was die met deze
@@ -168,9 +170,9 @@ export default function OverGwen() {
                   Eventhulpverlener - denk aan Rock Werchter, Graspop,
                   voetbalwedstrijden of zelfs wielerkoersen. Ook ben ik actief
                   in het opvangcentrum, waar ik mensen help met het maken van
-                  cv's en het leren van Nederlands. Mijn passie samengevat: het
-                  delen van positieve energie en anderen een duwtje in de rug
-                  geven op hun eigen unieke pad!
+                  cv&apos;s en het leren van Nederlands. Mijn passie samengevat:
+                  het delen van positieve energie en anderen een duwtje in de
+                  rug geven op hun eigen unieke pad!
                 </p>
               </div>
             </div>
