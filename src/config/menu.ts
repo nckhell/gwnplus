@@ -21,6 +21,11 @@ export const menu: Array<MenuItem> = [
     url: "/over-gwen",
   },
   {
+    label: "Blog",
+    alt: "Blog",
+    url: "/blog",
+  },
+  {
     label: "Contact",
     alt: "Contact",
     url: "/contact",
