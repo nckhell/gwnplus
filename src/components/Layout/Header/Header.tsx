@@ -20,7 +20,7 @@ export const Header: FC = () => {
       <div className="lg:w-3/5">
         <h1 className="text-3xl font-semibold text-slate-900 sm:text-4xl lg:text-4xl lg:leading-snug">
           Klaar om de richting van{" "}
-          <span className="text-orange-400 font-bold">jouw loopbaan</span> te
+          <span className="text-gwen-dark font-bold">jouw loopbaan</span> te
           verkennen?
         </h1>
         <div className="flex space-y-4 flex-col mt-4 text-lg text-slate-600">

@@ -9,7 +9,7 @@ export const Footer: FC = () => {
   const currentYear = new Date().getFullYear();
 
   return (
-    <footer className="py-12 bg-[#B16452]">
+    <footer className="py-12 bg-gwen-dark">
       <div className="mx-auto max-w-7xl divide-y divide-amber-900 px-4 sm:px-12 lg:px-8 xl:px-16">
         <div className="flex flex-col items-center justify-between gap-6 pb-6 md:flex-row">
           <Link href="/" className="inline-block bg-white p-3 rounded-full">
@@ -26,7 +26,7 @@ export const Footer: FC = () => {
               <li key={menuItem.url}>
                 <Link
                   href={menuItem.url}
-                  className="text-slate-100 transition duration-300 hover:text-slate-300"
+                  className="text-slate-100 transition duration-300 hover:text-gwen-light"
                   title={menuItem.alt}
                 >
                   {menuItem.label}
@@ -48,7 +48,7 @@ export const Footer: FC = () => {
             </Link>
           </span>
           <ul className="order-first flex gap-6 sm:order-2">
-            <li>Centrum Kontich</li>
+            <li>Witvrouwenveldstraat, 2550 Kontich</li>
             <li>
               <a
                 href="tel:0473 25 53 33"

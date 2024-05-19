@@ -26,7 +26,7 @@ export default function OverGwen() {
       <div className="container-gwen lg:flex lg:justify-between">
         <div className="lg:w-4/5">
           <h1 className="text-3xl font-semibold text-slate-900 lg:text-4xl lg:leading-snug">
-            Wat is <span className="text-orange-500">loopbaanbegeleiding</span>?
+            Wat is <span className="text-gwen-dark">loopbaanbegeleiding</span>?
           </h1>
           <div className="text-lg text-slate-600 mt-8 flex flex-col gap-y-4">
             <p>
@@ -81,7 +81,7 @@ export default function OverGwen() {
                   href="https://www.vdab.be/loopbaancheques"
                   title="VDAB loopbaancheques"
                   target="_blank"
-                  className="underline hover:text-orange-500"
+                  className="underline hover:text-gwen-dark"
                 >
                   de website van VDAB.
                 </a>
@@ -158,7 +158,7 @@ export default function OverGwen() {
           </Card>
         </div>
       </div>
-      <div className="py-12 sm:py-16 bg-[#B16452]">
+      <div className="py-12 sm:py-16 bg-gwen-dark">
         <div className="container-gwen text-slate-100">
           <div className="lg:w-4/5">
             <h1 className="text-3xl font-semibold lg:text-4xl lg:leading-snug">
@@ -221,7 +221,7 @@ export default function OverGwen() {
         <div className="container-gwen">
           <div className="lg:w-4/5">
             <h1 className="text-3xl font-semibold text-slate-900 lg:text-4xl lg:leading-snug">
-              <span className="text-orange-500">
+              <span className="text-gwen-dark">
                 Het stuur ligt in jouw handen
               </span>
               , en ik zit graag naast je om je te begeleiden!

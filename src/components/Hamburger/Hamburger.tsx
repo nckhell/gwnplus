@@ -16,11 +16,11 @@ export const Hamburger: FC<HamburgerProps> = ({ open, onClick }) => {
     >
       <div
         aria-hidden="true"
-        className="m-auto h-0.5 w-6 rounded bg-slate-600 group-hover:bg-orange-500 transition duration-300"
+        className="m-auto h-0.5 w-6 rounded bg-slate-600 group-hover:bg-gwen-dark transition duration-300"
       ></div>
       <div
         aria-hidden="true"
-        className="m-auto mt-2 h-0.5 w-6 rounded bg-slate-600 group-hover:bg-orange-500 transition duration-300"
+        className="m-auto mt-2 h-0.5 w-6 rounded bg-slate-600 group-hover:bg-gwen-dark transition duration-300"
       ></div>
     </button>
   );

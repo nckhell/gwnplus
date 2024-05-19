@@ -13,7 +13,7 @@ export const LinkButton: FC<LinkButtonProps> = ({
     <Link
       href={href ?? "/"}
       target={target}
-      className="group text-slate-600 inline-block py-3 items-center overflow-hidden border border-[#B16452] px-3.5 text-sm transition-all duration-300 hover:border-orange-400 hover:bg-orange-400 hover:text-white"
+      className="group text-slate-600 inline-block py-3 items-center overflow-hidden border border-[#B16452] px-3.5 text-sm transition-all duration-300 hover:border-gwen-dark hover:bg-gwen-dark hover:text-white"
       title={title}
     >
       <span className="relative flex items-center">

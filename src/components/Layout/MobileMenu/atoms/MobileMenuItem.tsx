@@ -21,8 +21,8 @@ export const MobileMenuItem: FC<MobileMenuItemProps> = ({
         aria-current={active === true ? "page" : undefined}
         href={url}
         className={clsx(
-          "block px-6 py-1 font-bold uppercase tracking-widest hover:text-orange-400 transition-colors",
-          active == true ? "underline text-orange-400" : "text-slate-500"
+          "block px-6 py-1 font-bold uppercase tracking-widest hover:text-gwen-light transition-colors",
+          active == true ? "underline text-gwen-light" : "text-slate-500"
         )}
         title={alt}
       >

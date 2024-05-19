@@ -22,7 +22,7 @@ export default function NotFound() {
               <a
                 href="tel:0473 25 53 33"
                 target="_blank"
-                className="transition duration-300 hover:text-orange-400"
+                className="transition duration-300 hover:text-gwen-dark"
                 title="Telefoonnummer"
               >
                 0473 25 53 33
@@ -34,7 +34,7 @@ export default function NotFound() {
       </div>
       <div className="md:w-3/5 text-left">
         <h1 className="text-3xl font-semibold text-slate-900 lg:text-4xl lg:leading-snug">
-          Stuur mij een <span className="text-orange-500">berichtje</span>
+          Stuur mij een <span className="text-gwen-dark">berichtje</span>
         </h1>
         <p className="text-lg text-slate-600 mt-8">
           Zoek je begeleiding of heb je vragen over loopbaanbegeleiding? Vul

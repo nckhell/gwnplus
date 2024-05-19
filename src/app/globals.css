@@ -53,6 +53,10 @@ body {
   @apply mt-4;
 }
 
+.post_content h2 {
+  @apply text-xl font-bold text-gwen-light lg:text-2xl lg:leading-snug mt-8;
+}
+
 .post_content ul {
   @apply list-disc;
 }

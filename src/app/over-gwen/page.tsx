@@ -44,7 +44,7 @@ export default function OverGwen() {
               verbreedt.
             </p>
             <p>
-              <strong className="text-orange-500">
+              <strong className="text-gwen-dark">
                 Waarom vasthouden aan het bekende, als er zoveel meer te
                 ontdekken valt?
               </strong>
@@ -78,7 +78,7 @@ export default function OverGwen() {
               onbekende.
             </p>
             <p>
-              <strong className="text-orange-500">
+              <strong className="text-gwen-dark">
                 Mijn missie is dan ook om mensen te begeleiden bij het
                 overwinnen van hun angsten en twijfels,
               </strong>{" "}
@@ -91,7 +91,7 @@ export default function OverGwen() {
       <div className="bg-orange-100 mt-24 py-16">
         <div className="container-gwen text-lg text-slate-600">
           <div className="lg:w-4/5">
-            <h2 className="text-3xl font-semibold text-[#B16452] sm:text-4xl lg:text-4xl lg:leading-snug">
+            <h2 className="text-3xl font-semibold text-gwen-dark sm:text-4xl lg:text-4xl lg:leading-snug">
               Ik ben Gwen, een {age}-jarige enthousiasteling die voldoening
               haalt uit het bijdragen aan het succes van anderen.
             </h2>
@@ -182,7 +182,7 @@ export default function OverGwen() {
       <div className="my-24">
         <div className="container-gwen text-center">
           <h1 className="text-3xl font-semibold text-slate-900 sm:text-4xl lg:text-4xl lg:leading-snug">
-            Laten we <span className="text-orange-500">kennismaken</span>!
+            Laten we <span className="text-gwen-dark">kennismaken</span>!
           </h1>
           <p className="text-lg text-slate-600 mt-8 max-w-[580px] mx-auto">
             Voilà, dat was mijn verhaal. Nu ben ik benieuwd naar dat van jou!

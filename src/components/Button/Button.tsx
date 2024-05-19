@@ -6,7 +6,7 @@ export const Button: FC<ButtonProps> = ({ type, children }) => {
   return (
     <button
       type={type}
-      className="group text-slate-600 inline-block py-3 items-center overflow-hidden border border-[#B16452] px-3.5 text-sm transition-all duration-300 hover:border-orange-400 hover:bg-orange-400 hover:text-white"
+      className="group text-slate-600 inline-block py-3 items-center overflow-hidden border border-gwen-dark px-3.5 text-sm transition-all duration-300 hover:border-gwen-light hover:bg-gwen-light hover:text-white"
     >
       <span className="relative flex items-center">
         {children}
