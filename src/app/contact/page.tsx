@@ -2,9 +2,12 @@ import { ContactForm } from "@/components/Form";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "GWN+ | Contact",
+  title: "GWN+ | Contact voor Loopbaancoaching",
   description:
-    "Contacteer GWN+ voor loopbaancoaching en -begeleiding. Hier kan u mijn contactgegevens vinden.",
+    "Contacteer GWN+ voor professionele loopbaancoaching en -begeleiding. Hier vindt u mijn contactgegevens.",
+  alternates: {
+    canonical: "https://www.gwnplus.be/contact",
+  },
 };
 
 export default function NotFound() {

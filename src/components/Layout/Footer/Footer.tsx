@@ -48,7 +48,9 @@ export const Footer: FC = () => {
             </Link>
           </span>
           <ul className="order-first flex gap-6 sm:order-2">
-            <li>Witvrouwenveldstraat, 2550 Kontich</li>
+            <li>
+              <address>Witvrouwenveldstraat 7, 2550 Kontich</address>
+            </li>
             <li>
               <a
                 href="tel:0473 25 53 33"

@@ -4,9 +4,13 @@ import Image from "next/image";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "GWN+ | Over Gwen",
+  title: "GWN+ | Over Gwen Jansen",
   description:
-    "Gwen is Gecertificeerd Loopbaancoach en Technical Recruiter met een passie voor HR en vrijwilligerswerk bij het Rode Kruis.",
+    "Gwen Jansen is een gecertificeerd loopbaancoach en technical recruiter met een passie voor HR en vrijwilligerswerk bij het Rode Kruis.",
+
+  alternates: {
+    canonical: "https://www.gwnplus.be/over-gwen",
+  },
 };
 
 const _calculateAge = (birthday: Date) => {

@@ -13,7 +13,7 @@ export default function Home() {
       <div className="bg-orange-100 mt-24 py-16">
         <div className="container-gwen">
           <h2 className="text-3xl font-semibold text-gwen-dark sm:text-4xl lg:text-4xl lg:leading-snug">
-            Loopbaanbegeleiding
+            Loopbaanbegeleiding in Kontich
           </h2>
           <div className="lg:w-4/5">
             <p className="text-lg text-slate-600 mt-8">
@@ -38,7 +38,7 @@ export default function Home() {
       <section className="bg-slate-50 py-24">
         <div className="container-gwen">
           <h2 className="text-3xl font-semibold text-slate-900 sm:text-4xl lg:text-4xl lg:leading-snug text-center mb-8">
-            Wat anderen over mij zeggen
+            Wat anderen over GWN+ zeggen
           </h2>
           <div className="mx-auto grid max-w-2xl grid-cols-1 lg:mx-0 lg:max-w-none lg:grid-cols-2">
             <div className="flex flex-col pb-10 sm:pb-16 lg:pb-0 lg:pr-8 xl:pr-20">

@@ -1,3 +1,4 @@
+import { Metadata } from "next";
 import { formatDate, getPosts, getPost } from "../../../lib/posts";
 
 export async function generateStaticParams() {
@@ -8,11 +9,15 @@ export async function generateStaticParams() {
   }));
 }
 
-export function generateMetadata({ params }: { params: { slug: string } }) {
+export function generateMetadata({
+  params,
+}: {
+  params: { slug: string };
+}): Metadata {
   const post = getPosts().find((post) => post.id === params.slug);
 
   if (!post) {
-    return;
+    return {};
   }
 
   const { title, date, image, description } = post;
@@ -21,8 +26,11 @@ export function generateMetadata({ params }: { params: { slug: string } }) {
     : `https://www.gwnplus.be/og?title=${encodeURIComponent(title)}`;
 
   return {
-    title,
+    title: `${title} | GWN+ Blog`,
     description,
+    alternates: {
+      canonical: `https://www.gwnplus.be/blog/${post.id}`,
+    },
     openGraph: {
       title,
       description,

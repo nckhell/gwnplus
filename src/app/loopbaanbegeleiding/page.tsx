@@ -6,9 +6,12 @@ import { Card } from "@/components/Card";
 import Link from "next/link";
 
 export const metadata: Metadata = {
-  title: "GWN+ | Wat is loopbaanbegeleiding",
+  title: "GWN+ | Loopbaanbegeleiding in Kontich",
   description:
-    "Verken je carrièrepotentieel met loopbaanbegeleiding: krijg inzicht in je talenten, stel doelen, en maak strategische keuzes, of je nu starter bent of een carrièreswitch overweegt.",
+    "Verken je carrièrepotentieel met loopbaanbegeleiding in Kontich: krijg inzicht, stel doelen, en maak strategische keuzes, of je nu starter bent of van carrière wilt switchen.",
+  alternates: {
+    canonical: "https://www.gwnplus.be/loopbaanbegeleiding",
+  },
 };
 
 const _calculateAge = (birthday: Date) => {

@@ -3,8 +3,12 @@ import { getPosts, formatDate } from "../../lib/posts";
 import Link from "next/link";
 
 export const metadata: Metadata = {
-  title: "GWN+ | Blog",
-  description: "Kom meer te weten over mijn visie op loopbaancoaching.",
+  title: "GWN+ | Loopbaancoaching Blog",
+  description:
+    "Lees de nieuwste artikelen en inzichten over loopbaancoaching op de GWN+ blog.",
+  alternates: {
+    canonical: "https://www.gwnplus.be/blog",
+  },
 };
 
 export default function Blog() {

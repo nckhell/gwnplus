@@ -25,11 +25,11 @@ export const Header: FC = () => {
         </h1>
         <div className="flex space-y-4 flex-col mt-4 text-lg text-slate-600">
           <p>
-            Als gecertificeerd loopbaancoach sta ik te popelen om samen op
-            ontdekking te gaan en de juiste route uit te stippelen voor jouw
-            professionele reis. Mijn rol is om jou te ondersteunen, zodat je met
-            zelfvertrouwen, vastberadenheid en de nodige kracht alle avonturen
-            en uitdagingen in jouw loopbaan met succes kunt aangaan.
+            Als gecertificeerd loopbaancoach in Kontich sta ik te popelen om
+            samen op ontdekking te gaan en de juiste route uit te stippelen voor
+            jouw professionele reis. Mijn rol is om jou te ondersteunen, zodat
+            je met zelfvertrouwen, vastberadenheid en de nodige kracht alle
+            avonturen en uitdagingen in jouw loopbaan met succes kunt aangaan.
           </p>
           <p className="font-bold">
             Klaar om samen de deuren naar nieuwe mogelijkheden te openen?
